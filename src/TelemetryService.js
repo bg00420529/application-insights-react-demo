@@ -8,7 +8,7 @@ class TelemetryService {
     }
 
     initialize(reactPluginConfig) {
-        let INSTRUMENTATION_KEY = 'YOUR_IKEY'; // Enter your instrumentation key here
+        let INSTRUMENTATION_KEY = "b3279a0e-ab34-4bbb-8601-8a18338b5112"; // Enter your instrumentation key here
         
         this.appInsights = new ApplicationInsights({
             config: {
